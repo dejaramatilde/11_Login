@@ -1,0 +1,50 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  &__label {
+    padding: 0.2rem 0;
+    font-size: $font-size-0;
+    font-weight: bold;
+  }
+  &__input {
+    display: block;
+    width: 90%;
+    padding: $sp0;
+    border-radius: 5px;
+    border: 1px solid $default-border-color;
+    &::placeholder {
+      color: $default-border-color;
+    }
+  }
+  &__checkbox {
+    padding: $sp1 0;
+    font-size: $font-size-0;
+    display: flex;
+    align-items: center;
+    &__label {
+      margin-left: $sp0;
+    }
+  }
+  &__submit {
+    padding: $sp0 $sp1;
+    background-color: $background-color-btn;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #ffff;
+    font-family: "Fira Sans", sans-serif;
+    &:hover {
+      background-color: #00c4a7;
+    }
+  }
+  .hipervinculo {
+    color: $link-color;
+
+    &:hover {
+      color: $hover-link-color;
+    }
+  }
+}
