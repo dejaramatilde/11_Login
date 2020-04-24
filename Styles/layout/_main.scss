@@ -1,29 +1,6 @@
-.main {
-  width: 55%;
-  padding: $sp4 $sp5;
-  background-color: #fff;
-
-  &__title {
-    font-size: $font-size-2;
-    font-weight: 500;
-    color: $hover-link-color;
-  }
-  &__subtitle {
-    font-size: $font-size-2;
-    font-weight: 400;
-    margin: $sp1 0;
-    color: $hover-link-color;
-  }
-  &__cuenta {
-    font-size: $font-size-0;
-    padding: $sp0;
-
-    .hipervinculo {
-      color: $link-color;
-
-      &:hover {
-        color: $hover-link-color;
-      }
-    }
-  }
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }

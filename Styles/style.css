@@ -23,7 +23,20 @@
   border-radius: 5px;
   border: 1px solid #dbdbdb;
 }
-.form__input::placeholder {
+.form__input:hover {
+  color: #b5b5b5;
+}
+.form__input:focus {
+  color: #3273dc;
+}
+.form__input:invalid {
+  color: #ff0000;
+  outline: #ff0000;
+}
+.form__input:valid {
+  color: #00d1b2;
+}
+.form::placeholder {
   color: #dbdbdb;
 }
 .form__checkbox {
@@ -36,6 +49,7 @@
   margin-left: 0.5rem;
 }
 .form__submit {
+  margin-top: 0.5rem;
   padding: 0.5rem 1rem;
   background-color: #00d1b2;
   border-radius: 5px;
@@ -56,10 +70,15 @@
 
 .image {
   width: 45%;
-  background-color: #ebd0d3;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.image--rosa {
+  background-color: #ebd0d3;
+}
+.image--verde {
+  background-color: #00d1b2;
 }
 .image__img {
   width: 80%;
@@ -107,6 +126,13 @@ body {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */

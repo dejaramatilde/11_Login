@@ -1,9 +1,16 @@
 .image {
   width: 45%;
-  background-color: $backgroun-color-img-index;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  &--rosa {
+    background-color: $backgroun-color-img-index;
+  }
+
+  &--verde {
+    background-color: $backgroun-color-img-login;
+  }
 
   &__img {
     width: 80%;
